@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Fundo{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image:url(https://images2.alphacoders.com/881/881377.jpg);
+    height: 100vh;
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+
+}
+.Calculadora{
+
+    color: white;
+    text-decoration: underline;
+    border: 10px solid ;
+    border-radius: 20px;
+    background-image: 
+    url(https://images2.alphacoders.com/474/474157.jpg);
+    padding: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+
+}
+
+.Botões{
+width: 60px;
+height: 30px;
+border-radius: 100px;
+border-color: aliceblue;
+cursor: pointer;
+margin: 3px;
+background-color: gray;
+color: white;
+
+}
+
+.Botões:hover{
+    background-color: rgb(53, 19, 175);
+}
+
+#Resultado{
+width: 255px;
+height: 150px;
+background-color:white;
+color: black;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+height: 30px;
+margin: 5px;
+font-size: 25px;
+text-align: right;
+padding: 5px;
+
+
+
+}
+.Centro, td{
+text-align: center;
+}
+
+
